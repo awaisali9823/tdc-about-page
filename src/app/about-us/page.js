@@ -1,4 +1,4 @@
-import { Hero, AboutSection, BrandSection } from "./_sections";
+import { Hero, AboutSection, BrandSection, TdcSection } from "./_sections";
 
 export default function AboutPage() {
   return (
@@ -6,6 +6,7 @@ export default function AboutPage() {
       <Hero />
       <AboutSection />
       <BrandSection />
+      <TdcSection />
     </>
   );
 }
