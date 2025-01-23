@@ -1,5 +1,11 @@
-import AboutSection from "@/_components/AboutSection/aboutSection";
+import { Hero, AboutSection, BrandSection } from "./_sections";
 
 export default function AboutPage() {
-  return <AboutSection />;
+  return (
+    <>
+      <Hero />
+      <AboutSection />
+      <BrandSection />
+    </>
+  );
 }

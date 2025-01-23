@@ -1,0 +1,147 @@
+.main {
+  height: 650px;
+  background-image: linear-gradient(
+      rgba(17, 24, 98, 0.7),
+      rgba(17, 24, 98, 0.7)
+    ),
+    url("/images/earth.png");
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.h1 {
+  font-size: 42px;
+  color: #fff;
+  line-height: 50px;
+  font-weight: 600;
+}
+.brandsDiv {
+  width: 1040px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.brandsDiv img:nth-child(5) {
+  margin-left: 100px;
+}
+.brandsDiv img:nth-child(7) {
+  margin-right: 100px;
+}
+
+@media (min-width: 1440px) {
+  .main {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .h1 {
+    font-size: 38px;
+    color: #fff;
+    line-height: 45px;
+    font-weight: 500;
+  }
+  .brandsDiv {
+    margin: 0 30px;
+    max-width: 932px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .main {
+    height: 500px;
+    gap: 30px;
+  }
+  .h1 {
+    font-size: 38px;
+    color: #fff;
+    line-height: 45px;
+    font-weight: 500;
+  }
+  .brandsDiv {
+    margin: 0 30px;
+    max-width: 708px;
+    width: 100%;
+  }
+  .brandsDiv img {
+    height: auto;
+    width: 150px;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 500px) {
+  .main {
+    height: 350px;
+    gap: 10px;
+  }
+  .h1 {
+    font-size: 32px;
+    color: #fff;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .brandsDiv {
+    margin: 0;
+    padding: 0 30px;
+    max-width: 600px;
+    width: 100%;
+    height: 100px;
+  }
+  .brandsDiv img {
+    height: auto;
+    width: 100px;
+  }
+  .brandsDiv img:nth-child(5) {
+    margin-left: 50px;
+  }
+  .brandsDiv img:nth-child(7) {
+    margin-right: 50px;
+  }
+}
+@media (max-width: 499px) {
+  .main {
+    height: auto;
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .h1 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 20px;
+    font-weight: 300;
+  }
+  .brandsDiv {
+    margin: 0;
+    padding: 0 30px;
+    max-width: 499px;
+    width: 100%;
+    height: auto;
+    /*  */
+    justify-content: center;
+    gap: 10px;
+  }
+  .brandsDiv img {
+    height: auto;
+    width: 70px;
+  }
+  /* .brandsDiv img:nth-child(1) {
+    border: 1px solid black;
+    height: 40px;
+    width: 50px;
+  } */
+  .brandsDiv img:nth-child(5) {
+    margin: 0px;
+  }
+  .brandsDiv img:nth-child(7) {
+    margin: 0;
+  }
+}
