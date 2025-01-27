@@ -1,0 +1,139 @@
+.main {
+  display: flex;
+  padding: 100px 75px;
+  gap: 150px;
+}
+.title {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* border: 1px solid black; */
+}
+.line {
+  width: 30px;
+  height: 1px;
+  color: #2b59ff;
+}
+.title h6 {
+  font-size: 16px;
+  color: #2b59ff;
+  line-height: 18px;
+}
+
+.p1 {
+  font-size: 30px;
+  line-height: 44px;
+  color: #25373f;
+  font-weight: 500;
+}
+.p2 {
+  font-weight: 400;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  color: rgba(37, 55, 63, 0.7);
+}
+
+@media (min-width: 1440px) {
+  .main {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+  .main {
+    justify-content: space-between;
+    gap: 0;
+  }
+  .p1 {
+    max-width: 400px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .p2 {
+    margin-top: 16px;
+    font-size: 16px;
+  }
+  .ceoImg {
+    width: 420px;
+    height: 450px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .main {
+    padding: 70px 30px;
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+  }
+  .comma {
+    display: none;
+  }
+  .p1 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .p2 {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  .ceoImg {
+    width: 600px;
+    height: 400px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 767px) and (min-width: 500px) {
+  .main {
+    padding: 70px 30px;
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+  }
+  .comma {
+    display: none;
+  }
+  .p1 {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .p2 {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  .ceoImg {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 499px) {
+  .main {
+    padding: 30px;
+    flex-direction: column;
+    gap: 0;
+    text-align: center;
+  }
+  .title {
+    margin-bottom: 15px;
+  }
+  .comma {
+    display: none;
+  }
+  .p1 {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .p2 {
+    font-size: 14px;
+    margin: 15px 0;
+  }
+  .ceoImg {
+    width: 250px;
+    height: 190px;
+    object-fit: contain;
+  }
+}

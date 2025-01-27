@@ -1,11 +1,13 @@
-.main {
-  height: 650px;
+.parentBox {
   background-image: linear-gradient(
       rgba(17, 24, 98, 0.7),
       rgba(17, 24, 98, 0.7)
     ),
     url("/images/earth.png");
   background-size: 100% 100%;
+}
+.main {
+  height: 650px;
   display: flex;
   flex-direction: column;
   justify-content: center;

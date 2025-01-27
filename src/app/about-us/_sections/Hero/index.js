@@ -6,8 +6,12 @@ export default function Hero() {
   return (
     <>
       <NavBar />
-      <div className={styles.main}>
-        <h1 className={styles.text}>We Are A Digital Transformation Company</h1>
+      <div className={styles.parentBox}>
+        <div className={styles.main}>
+          <h1 className={styles.text}>
+            We Are A Digital Transformation Company
+          </h1>
+        </div>
       </div>
     </>
   );

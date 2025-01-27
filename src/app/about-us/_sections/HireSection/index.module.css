@@ -1,0 +1,75 @@
+.main {
+  background-image: url("/images/mbg.png");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  padding: 130px 0;
+}
+.contentDiv {
+  width: 650px;
+  text-align: center;
+}
+
+.contentDiv h1 {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 47px;
+  color: #fff;
+}
+.contentDiv p {
+  margin: 30px 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 31px;
+  color: #fff;
+}
+@media (max-width: 1200px) and (min-width: 992px) {
+  .contentDiv h1 {
+    font-size: 36px;
+  }
+  .contentDiv p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .main {
+    padding: 70px 30px;
+  }
+  .contentDiv h1 {
+    font-size: 26px;
+  }
+  .contentDiv p {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+}
+@media (max-width: 767px) and (min-width: 500px) {
+  .main {
+    padding: 70px 30px;
+    flex: none;
+  }
+  .contentDiv h1 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .contentDiv p {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+}
+@media (max-width: 499px) {
+  .main {
+    padding: 30px;
+  }
+  .contentDiv h1 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  .contentDiv p {
+    font-size: 14px;
+    margin: 15px 0;
+  }
+  .btn {
+    display: inline-block;
+  }
+}

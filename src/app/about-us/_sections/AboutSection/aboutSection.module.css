@@ -72,9 +72,7 @@
     width: 500px;
   }
   .cutImage {
-    height: 150px;
-    width: 150x;
-    bottom: 0px;
+    display: none;
   }
 }
 @media (max-width: 992px) and (min-width: 769px) {
@@ -103,9 +101,7 @@
     line-height: 20px;
   }
   .cutImage {
-    height: 100px;
-    width: 100px;
-    bottom: 30px;
+    display: none;
   }
 }
 @media (max-width: 768px) and (min-width: 500px) {
@@ -144,9 +140,7 @@
     display: none;
   }
   .cutImage {
-    width: 100px;
-    height: 100px;
-    bottom: 10px;
+    display: none;
   }
 }
 @media (max-width: 499px) {
@@ -189,9 +183,7 @@
     display: none;
   }
   .cutImage {
-    width: 50px;
-    height: 50px;
-    bottom: 30px;
+    display: none;
   }
   .aboutButton {
     display: block;

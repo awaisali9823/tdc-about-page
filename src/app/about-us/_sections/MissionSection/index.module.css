@@ -1,0 +1,159 @@
+.bgDiv {
+  background-image: url("/images/missionbg.png");
+  background-size: cover;
+}
+.main {
+  position: relative;
+  display: flex;
+  gap: 100px;
+  padding: 100px 75px;
+}
+
+.title {
+  margin: 30px 0 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.line {
+  width: 30px;
+  height: 1px;
+  color: #2b59ff;
+}
+.title h6 {
+  font-size: 16px;
+  color: #fff;
+  line-height: 18px;
+}
+
+.right h1 {
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: 600;
+  color: #fff;
+}
+.right p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 28.5px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.image1 {
+  position: absolute;
+  right: 100px;
+  bottom: 0;
+}
+.image2 {
+  position: absolute;
+  right: -60px;
+  bottom: 0;
+}
+
+@media (min-width: 1440px) {
+  .main {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .main {
+    gap: 60px;
+  }
+  .imgDiv img {
+    width: 450px;
+    height: 400px;
+  }
+  .title {
+    margin: 30px 0 20px 0;
+  }
+
+  .right h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .right p {
+    max-height: 230px;
+    height: 100%;
+    margin-top: 15px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .image1,
+  .image2 {
+    display: none;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .image1,
+  .image2 {
+    display: none;
+  }
+  .main {
+    padding: 70px 30px;
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+  .imgDiv img {
+    width: 600px;
+    height: 400px;
+    object-fit: contain;
+  }
+  .title {
+    justify-content: center;
+  }
+  .right h1 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 767px) and (min-width: 500px) {
+  .image1,
+  .image2 {
+    display: none;
+  }
+  .main {
+    padding: 70px 30px;
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+  .imgDiv img {
+    width: 400px;
+    height: 400px;
+  }
+  .title {
+    justify-content: center;
+  }
+  .right h1 {
+    font-size: 26px;
+  }
+}
+@media (max-width: 499px) {
+  .image1,
+  .image2 {
+    display: none;
+  }
+  .main {
+    padding: 30px;
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+  }
+  .imgDiv img {
+    width: 250px;
+    height: 190px;
+  }
+  .title {
+    justify-content: center;
+  }
+  .right h1 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .right p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

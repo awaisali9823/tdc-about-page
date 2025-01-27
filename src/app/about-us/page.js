@@ -1,4 +1,12 @@
-import { Hero, AboutSection, BrandSection, TdcSection } from "./_sections";
+import {
+  Hero,
+  AboutSection,
+  BrandSection,
+  TdcSection,
+  MissionSection,
+  CeoSection,
+  HeroSection,
+} from "./_sections";
 
 export default function AboutPage() {
   return (
@@ -7,6 +15,9 @@ export default function AboutPage() {
       <AboutSection />
       <BrandSection />
       <TdcSection />
+      <MissionSection />
+      <CeoSection />
+      <HeroSection />
     </>
   );
 }
